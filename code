@@ -1,0 +1,1767 @@
+//Index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete resposive sport design dailywebdesign</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- custom css file links -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- header section start page -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fa-solid fa-baseball-bat-ball"></i> sporteyz </a>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="new.html">Sign Up</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        
+        <input type="text" name="" id="search_bar" placeholder="search products">
+        <div id="search-btn" class="fas fa-search"></div>
+    </div>
+
+</header>
+
+<!-- home section start -->
+
+<section class="home" id="home">
+    <div class="slides-container">
+
+        <div class="slide active">
+            <div class="content">
+                <span>Never Stop</span>
+                <h3>upto 50% off</h3>
+                <a href="shop.html" class="btn">Shop Now</a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="home-bg-removebg-preview.png">
+            </div>
+        </div>
+
+
+        <div class="slide">
+            <div class="content">
+                <span>Never Stop</span>
+                <h3>upto 50% off</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="upmatch.png">
+            </div>
+        </div>
+
+    </div>
+    <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+    <div id="prev-slide" class="fas fa-angle-left" onclick="next()"></div>
+</section>
+
+
+<section class="banner-container">
+
+<div class="banner">
+    <img decoding="async" src="bathit1.jpeg" alt="">
+    <div class="content">
+    <span>limited sales</span>
+    <h3>upto 50% off</h3>
+    <a href="shop.html" class="btn">Shop Now</a>
+</div>
+</div>
+
+<div class="banner">
+    <img decoding="async" src="bathit2.jpeg" alt="">
+    <div class="content">
+    <span>limited sales</span>
+    <h3>upto 50% off</h3>
+    <a href="shop.html" class="btn">Shop Now</a>
+</div>
+</div>
+
+<div class="banner">
+    <img decoding="async" src="bathit3.jpeg" alt="">
+    <div class="content">
+    <span>limited sales</span>
+    <h3>upto 50% off</h3>
+    <a href="shop.html" class="btn">Shop Now</a>
+</div>
+</div>
+
+</section>
+
+<!-- category start -->
+
+
+
+<section class="category">
+    <br>
+    <h1 class="title"> our <span>category</span> <a href="#"> view all >> </a> </h1>
+
+   
+</section>
+
+<div class="heading">
+    <img src="prod2.jpeg" alt="">
+</div>
+
+<section class="info-container">
+
+    <div class="info">
+        <img decoding="async" src="delivery.png" alt="">
+        <div class="content">
+            <h3>fast delivery</h3>
+            <span>within 2 Days</span>
+        </div>
+    </div>
+
+    <div class="info">
+        <img decoding="async" src="avilable.png" alt="">
+        <div class="content">
+            <h3>24/7 available</h3>
+            <span>Customer Care</span>
+        </div>
+    </div>
+
+    <div class="info">
+        <img decoding="async" src="payments.png" alt="">
+        <div class="content">
+            <h3>easy payments</h3>
+            <span>Fast and Easy Payments</span>
+        </div>
+    </div>
+</section>
+<footer>
+    <p>&copy;Sports Instruments Using HTML, CSS by Jaideep Adi</p>
+</footer>
+  
+    
+
+</body>
+</html>
+//shop.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    
+<header class="header">
+    <a href="#" class="logo"> <i class="fa-solid fa-baseball-bat-ball"></i> sporteyz </a>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+    </div>
+
+</header>
+    
+    <section class="products">
+        <h1 class="title"> our <span>product</span> <a href="#">view all >></a></h1>
+        <div class="box-container">
+    
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img decoding="async" src="bag.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Bag</h3>
+                    <div class="price">₹1000/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img decoding="async" src="cap.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Cap</h3>
+                    <div class="price">₹299/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img decoding="async" src="shoe.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Shoes</h3>
+                    <div class="price">₹2999/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img decoding="async" src="tshirt.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>T-shirt</h3>
+                    <div class="price">₹499/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img decoding="async" src="football.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Foot Ball</h3>
+                    <div class="price">₹999/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img decoding="async" src="bat.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Bat</h3>
+                    <div class="price">₹1999/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img decoding="async" src="cricket-ball-png-28875.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Ball</h3>
+                    <div class="price">₹199/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img decoding="async" src="wickets-removebg-preview.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>wickets</h3>
+                    <div class="price">₹899/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img decoding="async" src="pads-removebg-preview.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>pads</h3>
+                    <div class="price">₹1299/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img decoding="async" src="baseball-removebg-preview.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Base Ball</h3>
+                    <div class="price">₹899/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img decoding="async" src="helmet-removebg-preview.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>helmet</h3>
+                    <div class="price">₹999/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+
+
+
+            
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img decoding="async" src="gaurd-removebg-preview.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>gaurd</h3>
+                    <div class="price">₹599/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img decoding="async" src="glows-removebg-preview.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>glows</h3>
+                    <div class="price">₹899/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+
+
+
+            
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img decoding="async" src="set-removebg-preview.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>cricket kit</h3>
+                    <div class="price">₹3999/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+
+
+
+            
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img decoding="async" src="shuttlebat-removebg-preview.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>shuttle bats</h3>
+                    <div class="price">₹1599/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+
+            
+    
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Sports Instruments Using HTML, CSS & JS by Jaideep Adi</p>
+    </footer>
+  
+</body>
+</html>
+// signup.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+    <script defer src="signup.js"></script> <!-- Link to the JS file -->
+</head>
+
+<body>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+    const signupForm = document.getElementById('signup-form');
+
+    // Event listener for form submission
+    signupForm.addEventListener('submit', function (event) {
+        event.preventDefault(); // Prevent default form submission
+
+        // Collect form data
+        const firstName = document.getElementById('firstName').value.trim();
+        const lastName = document.getElementById('lastName').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const phone = document.getElementById('phone').value.trim();
+        const gender = document.querySelector('input[name="gender"]:checked');
+        const region = document.getElementById('region').value;
+        const city = document.getElementById('city').value.trim();
+        const address = document.getElementById('address').value.trim();
+        const terms = document.getElementById('terms').checked;
+
+        // Validate the form data
+        let errors = [];
+
+        if (firstName === "") {
+            errors.push("First name is required.");
+        }
+        if (lastName === "") {
+            errors.push("Last name is required.");
+        }
+        if (!validateEmail(email)) {
+            errors.push("Please enter a valid email address.");
+        }
+        if (!validatePhone(phone)) {
+            errors.push("Please enter a valid phone number.");
+        }
+        if (!gender) {
+            errors.push("Please select your gender.");
+        }
+        if (region === "") {
+            errors.push("Please select your region.");
+        }
+        if (city === "") {
+            errors.push("City is required.");
+        }
+        if (address === "") {
+            errors.push("Address is required.");
+        }
+        if (!terms) {
+            errors.push("You must agree to the terms and conditions.");
+        }
+
+        // If there are errors, display them and prevent form submission
+        if (errors.length > 0) {
+            alert(errors.join("\n"));
+            return;
+        }
+
+        // If no errors, show success message
+        alert(`Thank you, ${firstName}! You have successfully signed up.`);
+
+        
+        // Optionally, you can submit the form data to a server here
+        // signupForm.submit(); // Uncomment this if using server-side form submission
+    });
+
+    // Validate email format using regex
+    function validateEmail(email) {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    }
+
+    // Validate phone number format (Indian example)
+    function validatePhone(phone) {
+        const phoneRegex = /^[0-9]{10}$/; // Simple 10-digit validation
+        return phoneRegex.test(phone);
+    }
+});
+
+    </script>
+   
+    <header>
+        <div id="div1">
+            <h1> &#128218; Sporteyz</h1>
+            <div id="div2">
+                <a href="index.html"><i class="fa-solid fa-house"></i>Home </a>
+                <a href="about.html"><i class="fa-solid fa-circle-info"></i>About </a>
+                
+                <a href="contact.html"><i class="fa-solid fa-address-book"></i></i>Contact </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+       
+        <div id="signup">
+            <div>
+                <h2><i class="fa-solid fa-user"></i>&nbsp; Sign_up</h2>
+            </div>
+            <form id="signup-form">
+                <div>
+                    <label for="firstName">First name:</label>
+                    <input type="text" id="firstName" placeholder="Enter your first name" required>
+                </div><br>
+                <div>
+                    <label for="lastName">Last name:</label>
+                    <input type="text" id="lastName" placeholder="Enter your last name" required>
+                </div><br>
+                <div>
+                    <label for="email">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="email" id="email" placeholder="Enter your email id" required>
+                </div><br>
+                <div>
+                    <label for="phone">Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="tel" id="phone" placeholder="Enter your mobile num" required>
+                </div><br>
+                <div>
+                    <label>Gender:</label>
+                    <input type="radio" name="gender" id="male" value="Male" required> Male
+                    <input type="radio" name="gender" id="female" value="Female"> Female
+                </div><br>
+                <div>
+                    <label for="region">Region:</label>
+                    <select id="region" required>
+                        <option value="">Select</option>
+                        <option value="India">India</option>
+                        <option value="America">America</option>
+                        <option value="China">China</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Russia">Russia</option>
+                        <option value="U.K">U.K</option>
+                        <option value="Africa">Africa</option>
+                        <option value="Antarctica">Antarctica</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label for="city">City:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text" id="city" placeholder="Enter your city" required>
+                </div><br>
+                <div>
+                    <label for="address">Address:</label>
+                    <textarea id="address" placeholder="Enter your address" required></textarea>
+                </div><br>
+                <div>
+                    <input type="checkbox" id="terms" required> Agree to all the terms and conditions
+                </div><br>
+                <div>
+                    <button type="submit">Sign up!!</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <div id="footer">
+        <p>&copy all rights reserved</p>
+    </div>
+</body>
+
+</html>
+//signup.css
+body {
+    background-image: url(sign\ up.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background: linear-gradient(rgba(75, 110, 153, 0.388), rgba(27, 27, 104, 0.557));
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    display: inline-block;
+    color: azure;
+    font-size: 35px;
+    padding-left: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+
+#div2 {
+    float: right;
+    margin-top: 40px;
+    padding-right: 10px;
+    word-spacing: 20px;
+    font-size: 20px;
+
+}
+
+main {
+    border: 1px solid black;
+    float: right;
+    border-radius: 10px;
+    padding: 50px;
+    background-color: rgba(77, 141, 205, 0.347);
+    margin-top: 40px;
+    margin-right: 180px;
+    width: fit-content;
+    color: azure;
+}
+
+#footer {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 800px;
+    background-color: rgba(245, 245, 220, 0.342);
+    text-align: center;
+    color: azure;
+}
+
+#signup {
+    width: 280px;
+}
+a:hover{
+    color: rgb(193, 144, 144);
+}
+//contact.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<header class="header">
+    <a href="#" class="logo"> <i class="fa-solid fa-baseball-bat-ball"></i> sporteyz </a>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+    </div>
+
+</header>
+
+    <!-- contect section start -->
+
+<div class="heading">
+    <h1>Contact us</h1>
+    <img src="prod2.jpeg" alt="">
+</div>
+
+<section class="contact">
+    <div class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-phone"></i>
+            <h3>our number</h3>
+            <p>+91 9347732448</p>
+            <p>+91 807497557</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3>our email</h3>
+            <p>adijaideep98@gmail.com</p>
+            <p>sporteyz@gmail.com</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>our address</h3>
+            <p>andhra pradesh, india - 532460</p>
+        </div>
+
+    </div>
+    </section>
+
+
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="index.html"><i class="fas fa-arrow-right"></i>Home</a>
+                <a href="shop.html"><i class="fas fa-arrow-right"></i>Shop</a>
+                <a href="about.html"><i class="fas fa-arrow-right"></i>About</a>
+    
+                <a href="#"><i class="fas fa-arrow-right"></i>Contact</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i>my order</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>my favorite</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>my wishlist</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>my account</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>terms or use</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="https://www.facebook.com"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="https://www.twitter.com"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="https://www.instagram.com"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="https://in.linkedin.com"> <i class="fab fa-linkedin"></i> linkedin </a>
+                
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for lastest update and Brand New Offers</p>
+                <form action="">
+                    <input type="email" placeholder="enter your email address">
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+                <img decoding="async" src="payments.png" class="payments" alt="">
+                
+
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Sports Instruments Using HTML, CSS & JS by manideep Gemabali</p>
+    </footer>
+    
+</body>
+</html>
+//about.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<header class="header">
+    <a href="#" class="logo"> <i class="fa-solid fa-baseball-bat-ball"></i> sporteyz </a>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div><br>
+        <input type="search">
+        <div id="search-btn" class="fas fa-search"></div>
+    </div>
+
+</header>
+    
+    <section>
+    <div class="heading">
+        <h1>About Us</h1>
+    </div>
+    
+    <section class="about">
+        <div class="img">
+            <img decoding="async" src="prod2.jpeg" alt="">
+        </div>
+    
+        <div class="content">
+            <span>Welcome to our Products</span>
+            <h3>sporteyz</h3>
+            <h3>follow us on <a href="https://www.instagram.com">Instagram</a> <img src="insta.jpeg " height="25"</h3><br>
+            <h3>follow us on <a href="https://www.facebook.com">Facebook</a> <img src="facebook.jpeg" height="25"><br></h3><br>
+                 <a href="#" class="btn">read more</a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Sports Instruments Using HTML, CSS & JS by Jaideep Adi</p>
+    </footer>
+  
+    
+</body>
+</html>
+//style.css
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+:root{
+    --yellow:#fffef8;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: .2s linear;
+}
+body{
+    background:#fcfcfb;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    background: var(--yellow);
+    color: #01411C;
+    font-size: 1.7rem;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    border:0.1rem solid rgba(0,0,0,0.7);
+    
+}
+.btn:hover{
+    background: #01411C;
+    color: #FFEF2B;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+section{
+    padding: 3rem 9%;
+}
+
+.heading{
+    background: url(image/prod2.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 12rem;
+    padding-bottom: 8rem;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    border:0.1rem solid rgba(0,0,0,0.7);
+}
+
+.heading h1{
+    color:#FFEF2B;
+    font-size: 5rem;
+   font-weight: bold;
+
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    padding: 1.2rem 0;
+
+    border-bottom:0.1rem solid rgba(0,0,0,0.7);
+}
+
+.title span{
+    color: #01411C;
+    padding-left:  .7rem;
+}
+
+.title a{
+    margin-left: auto;
+    color: #01411C;
+    font-size: 1.5rem;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: var(--yellow);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.header .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #01411C;
+}
+
+.header .logo i{
+    color: #01411C;
+    padding-right: .5rem;
+}
+
+.header .navbar a{
+    font-size: 1.7rem;
+    color: #01411C;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+.header .navbar a:hover{
+    color: #f0350b;
+    transition: 0.2s;
+}
+
+.header .icons div{
+    font-size: 2.5rem;
+    margin-left: 1.7rem;
+    cursor: pointer;
+    color: #062def;
+    
+}
+
+.header .icons div:hover{
+    color: #1c1c1c;
+}
+
+#menu-btn{
+    display: flexbox;
+    margin-right: 20px;
+    
+
+}
+input[type="text"]{
+    width:210px;
+    
+    height: 30px;
+    background-color: rgb(237, 226, 226);
+}
+
+@keyframes fadeLeft{
+    0% {
+        opacity: 0;
+        transform: translateX(-5rem);
+    }
+}
+
+@keyframes fadeup {
+    0%{
+        opacity: 0;
+        transform:  scale(0.5);
+    }
+}
+
+.home{
+    padding-top: 14rem;
+    background: url(image/prod4.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position:relative;
+}
+
+.home .slides-container .slide{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    display: none;
+}
+.home .slides-container .slide.active{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home .slides-container .slide .content{
+    flex: 1 1 40rem;
+    animation: fadeLeft .4s linear .4s backwards;
+}
+
+.home .slides-container .slide .content span{
+    color: #FFEF2B;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.home .slides-container .slide .content h3{
+    font-size: 6rem;
+    color: #FFEF2B;
+    padding:  .5rem 0;
+}
+
+.home .slides-container .slide .img{
+    flex: 1 1 40rem;
+    margin: 3rem 0;
+}
+
+.home .slides-container .slide .img img{
+    width: 100%;
+    animation: fadeup .4s linear;
+}
+
+
+
+.home #next-slide,
+.home #prev-slide{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50);
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background: #FFEF2B;
+    font-size: 2rem;
+    color: #01411C;
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    border:0.1rem solid rgba(0,0,0,0.7);
+}
+
+.home #next-slide:hover,
+.home #prev-slide:hover{
+    background: #01411C;
+    color: #FFEF2B;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+
+.home #prev-slide{
+    left: 2rem;
+}
+
+.home #next-slide{
+    right: 2rem;
+}
+.banner-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+    gap: 1.5rem;
+}
+
+.banner-container .banner{
+    position: relative;
+    height: 25rem;
+    overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    border:0.1rem solid rgba(0,0,0,0.7);
+}
+
+.banner-container .banner img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner-container .banner .content{
+    position: absolute;
+    top: 50%;
+    left: 2rem;
+    transform: translateY(-50%);
+}
+
+.banner-container .banner .content span{
+    color: #FFEF2B;
+    font-size: 1.5rem;
+}
+
+.banner-container .banner .content h3{
+    font-size: 2rem;
+    padding-top: .5rem;
+    color: #FFEF2B;
+}
+
+.banner-container .banner .content .btn{
+    padding: .8rem 2.5rem;
+}
+
+.banner-container .banner:hover img{
+    transform: scale(1.2);
+}
+
+
+.category .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 1.5rem;
+    padding: 4rem 0;
+}
+
+.category .box-container .box{
+    text-align: center;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    border:0.1rem solid rgba(0,0,0,0.7);
+}
+
+.category .box-container .box img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.category .box-container .box:hover img{
+    transform: scale(1.2);
+}
+
+.category .box-container .box h3{
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: #01411C;
+}
+
+.category .box-container .box:hover h3{
+     color: #01411C;
+}
+
+.products .box-container {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+  }
+
+
+
+  .products .box-container .box {
+    position: relative;
+    background: #FFEF2B;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    border:0.1rem solid rgba(0,0,0,0.7);
+  }
+
+
+
+.products .box-container .box:hover  .icons{
+    top: 0;
+}
+
+  .products .box-container .box .icons {
+   position: absolute;
+    top: -105%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #01411C;
+    gap: 1rem;
+  }
+
+
+
+  .products .box-container .box .icons a {
+    font-size: 2rem;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    background: #FFEF2B;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    color: #01411C;
+  }
+
+
+
+.products .box-container .box .icons a:hover{
+    background: #01411C;
+    color:#FFEF2B;
+}
+
+
+
+  .products .box-container .box .img {
+    overflow: hidden;
+  }
+
+
+
+  .products .box-container .box .img img {
+    height:100%;
+    width:100%;
+    object-fit: cover;
+  }
+
+
+
+  .products .box-container .box .content {
+    padding: 1.5rem;
+  }
+
+
+
+  .products .box-container .box .content h3 {
+    font-size: 2rem;
+    color: #01411C;
+  }
+
+
+
+  .products .box-container .box .content .price {
+    font-size: 2rem;
+    color: #01411C;
+    padding: 1rem 0;
+  }
+
+
+
+  .products .box-container .box .content .stars i {
+    font-size: 1.7rem;
+    color: #01411C;
+  }
+
+
+.about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.about img{
+    flex: 1 1 40rem;
+}
+
+.about .img img{
+    width: 545.59px;
+    height: 364.39px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    border:0.1rem solid rgba(0,0,0,0.7);
+}
+
+.about .content{
+    flex: 1 1 40rem;
+}
+
+.about .content span{
+    color: #01411C;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.about .content h3{
+    color: #01411C;
+    font-size: 3rem;
+    padding-top: .5rem;
+    font-weight: bold;
+}
+
+.about .content p{
+    color: #01411C;
+    font-size: 1.4rem;
+    line-height: 2;
+    padding: 1rem 0;
+    font-weight: bold;
+}
+
+
+.info-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 1.5rem;
+}
+
+.info-container .info{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 0;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    border:0.1rem solid rgba(0,0,0,0.7);
+    background: #FFEF2B;
+
+}
+
+.info-container .info:hover{
+    background: #01411C;
+
+}
+
+.info-container .info img{
+    height: 7rem;
+}
+
+.info-container .info .content h3{
+    font-size: 2rem;
+    color: #01411C;
+    padding-bottom: .5rem;
+}
+.info-container .info .content:hover h3{
+    color: #FFEF2B;
+}
+.info-container .info .content span{
+    font-size: 1.5rem;
+    color: #01411C;
+    font-weight: bold;
+}
+
+.info-container .info .content span:hover{
+    color: #FFEF2B;
+    font-weight: bold;
+}
+
+
+.review{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.review .box{
+    padding: 2rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    border: 0.1rem solid rgba(0,0,0,0.7);
+}
+
+.review .box .user{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.review .box .user img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+}
+
+.review .box .user h3{
+    font-size: 2.2rem;
+    color: #01411C;
+}
+
+.review .box .user span{
+    font-size: 1.4rem;
+    color: #01411C;
+}
+
+.review .box p{
+    font-size: 1.4rem;
+    color: #01411C;
+    line-height: 2;
+}
+
+
+.blog .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.blog .box-container .box{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    border: 0.1rem solid rgba(0,0,0,0.7);
+}
+
+
+.blog .box-container .box .img:hover img{
+    transform: scale(1.2);
+}
+
+.blog .box-container .box .img{
+    height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.blog .box-container .box .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.blog .box-container .box .content{
+    padding: 2rem 1.5rem;
+}
+
+.blog .box-container .box .content .icons{
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 1.7rem;
+    margin-bottom: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog .box-container .box .content .icons a{
+    font-size: 1.4rem;
+    color: #01411C;
+}
+
+.blog .box-container .box .content .icons a:hover{
+    color: #FFEF2B;
+}
+
+.blog .box-container .box .content .icons a i{
+    color: #01411C;
+    padding-right: .5rem;
+}
+
+.blog .box-container .box .content h3{
+    font-size: 2.2rem;
+    color: #01411C;
+}
+
+.blog .box-container .box .content p{
+    font-size: 1.4rem;
+    color: #01411C;
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+
+.contact .icons-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+    gap: 1.5rem;
+}
+
+
+
+.contact .icons-container .icons{
+    text-align: center;
+    border: 0.1rem solid rgba(0,0,0,0.7);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    padding:2rem;
+}
+
+
+
+.contact .icons-container .icons i{
+    height:6rem;
+    width:6rem;
+    line-height: 6rem;
+    font-size: 2.5rem;
+    background: var(--yellow);
+    color:#01411C;
+    border-radius: 50%;
+}
+
+
+
+.contact .icons-container .icons h3{
+    color:#01411C;
+    font-size: 2rem;
+    padding:1rem 0;
+}
+
+
+
+.contact .icons-container .icons p{
+    color:#01411C;
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+
+.footer{
+    background: var(--yellow);
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 2.2rem;
+    color: #01411C;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box p{
+    font-size: 1.5rem;
+    color: #01411C;
+    padding-bottom: .5rem;
+}
+
+.footer .box-container .box a{
+    font-size: 1.4rem;
+    color: #01411C;
+    padding: 1rem 0;
+    display: block;
+}
+
+.footer .box-container .box a:hover{
+    color: #01411C;
+}
+
+.footer .box-container .box a:hover i{
+    padding-right: 2rem;
+}
+
+.footer .box-container .box a i{
+    padding-right: .5rem;
+    color: #01411C;
+}
+
+.footer .box-container .box form input[type="email"]{
+    width: 100%;
+    padding: 1rem 1.2rem;
+    font-size: 1.6rem;
+    background-color: #FFEF2B;
+    color: #01411C;
+    margin: 1rem 0;
+    text-transform: none;
+}
+
+.footer .box-container .box .payments{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.credit{
+    text-align: center;
+    background: var(--yellow);
+    color: #01411C;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+@media (max-width: 991px){
+    html{
+        font-size: 55%;
+    }
+    .header{
+        padding: 2rem;
+    }
+    section{
+        padding: 3rem 2rem;
+    }
+    .home #next-slide,
+    .home #prev-slide{
+        transform: translateY(0);
+        top: 88%;
+    }
+    .home #prev-slide{
+        left:auto;
+        right: 8rem;
+    }
+}
+
+@media (max-width: 786px){
+    #menu-btn{
+        display: inline-block;
+    }
+    .header .navbar{
+        position: absolute;
+        top: 90%;
+        left: 0;
+        right: 0;
+        background: #01411C;
+        border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+        border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    .header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .header .navbar a{
+        margin: 1.5rem;
+        padding: 1.5rem;
+        background: var(--yellow);
+        font-size: 2rem;
+        display: block;
+        border-radius: .5rem;
+    }
+}
+
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+    .home .slides-container .slide h3{
+        font-size: 4rem;
+    }
+    .products .box-container .box .img{
+        width: 100%;
+    }
+
+    .category .box-container .box img{
+        width: 100%;
+    }
+}
+footer{
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 20px;
+}
